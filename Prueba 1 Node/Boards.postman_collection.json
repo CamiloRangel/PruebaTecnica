@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "29c4b985-358a-41e8-b5c5-ed4c8e16141b",
+		"name": "Boards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16028198"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/boards/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"boards",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"Task 4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/boards",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"boards"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
