@@ -1,0 +1,9 @@
+
+<div class="wrapper">
+  <div class="contenedor-card" [attr.data-test-id]="blog" *ngFor="let item of data">
+    <article [attr.data-test-id] = "item.blog_item" style="background-image: url('{{item.blog_img}}');">
+      <p>{{item.blog_title}}</p>
+    </article>
+  </div>
+
+</div>

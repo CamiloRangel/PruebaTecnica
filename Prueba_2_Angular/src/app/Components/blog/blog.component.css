@@ -1,0 +1,42 @@
+.wrapper{
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 5px;
+}
+
+
+
+article{
+  height: 434px;
+  width: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  color: white;
+  text-align: justify;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+p{
+  height: 50px;
+  width: 95%;
+  position: relative;
+  top: 350px;
+  padding: 10px;
+}
+
+
+.contenedor-card{
+  padding: 8px;
+  align-items: center;
+  margin: 0;
+}
+
+
+
+
+
+

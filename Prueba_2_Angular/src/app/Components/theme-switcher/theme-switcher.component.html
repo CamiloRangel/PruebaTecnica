@@ -1,0 +1,19 @@
+<div>
+  <div id="titulo" class="centrado">
+    <fa-icon class="imagen" [icon] = "faImages"></fa-icon>
+    <h4  class="titulo"> Theme Switcher</h4>
+  </div>
+
+  <div class="switcher">
+    <div *ngIf="switcher_theme">
+      <button [attr.data-test-id]="sw" class="btn oscuro" (click) = "CambiarTema()"> <fa-icon [icon] = "faMoon"></fa-icon> {{sw_them[1].current_theme}}
+      </button>
+    </div>
+    <div *ngIf="!switcher_theme">
+      <button [attr.data-test-id]="sw" class="btn" (click) = "CambiarTema()">  <fa-icon [icon] = "faSun"></fa-icon> {{sw_them[0].current_theme}}</button>
+    </div>
+
+
+
+
+</div>
